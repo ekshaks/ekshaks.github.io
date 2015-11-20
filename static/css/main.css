@@ -84,6 +84,11 @@ body {
   }
 }
 
+.navbar-brand,
+ul.nav li a{
+    font-size: 2em;
+}
+
 /* Custom page CSS
 -------------------------------------------------- */
 
