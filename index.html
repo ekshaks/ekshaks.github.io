@@ -1,0 +1,33 @@
+---
+layout: home
+---
+
+<section id="about">
+	<div class="container">
+	  <div class="avatar">
+		<img class="img-circle" src="{{site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
+	  </div>
+
+      <h4>
+      I'm <strong>{{ site.author }}</strong>, a Researcher in the Cognitive Solutions and Services group at IBM Research, Bangalore, India. I'm interested in designing reliable, distributed, interactive, multi-modal systems involving human computer symbiosis for faster decision-making and task execution.
+
+    </h4>
+
+    <h4>
+    My recent work involves investigating user-friendly programming abstractions to enable rapid development of reactive, data-driven web applications. Previously, I have worked extensively in automated bug hunting and verification of sequential/concurrent software systems using mathematical modeling, constraint solving and compiler technologies.
+    </h4>
+
+    <h4>
+    I worked earlier as a Research Staff Member in the System Analysis and Verification group at NEC Labs, Princeton. I obtained my Ph.D. and M.S. in Computer Engineering from Carnegie Mellon University, and B.Tech. (Hons.) in Computer Sc. and Engg. from IIT Kharagpur.
+     </h4>
+
+     <!-- <h3>Have a look at some of my working <a href="{{ site.baseurl }}/projects.html"> projects</a>.</h3> 
+      <h3>I love all things computer science and maths.</h3>
+        at <a href="http://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a> or by
+     -->
+
+	  <h3>Check out my professional <a href="{{site.baseurl}}static/docs/cv.pdf">resume</a>.</h3>
+	  <h3>Contact me by <a href="mailto:{{ site.email }}">email</a>.</h3>
+	  {% include social.html %}
+	</div>
+</section>

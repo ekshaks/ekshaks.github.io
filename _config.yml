@@ -1,0 +1,37 @@
+# top level stuff you probably don't need to touch
+highlighter: pygments
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 3000
+safe: true
+
+
+# edit here to achieve your personal greatness
+url: http://ekshaks.github.io/
+#baseurl:
+title: Nishant Sinha
+author: Nishant Sinha
+description: Personal blog
+avatar: profile.jpg
+email: nishantsinha@acm.org
+github: ekshaks # username
+#twitter: username
+linkedin: nishant-sinha-a610311
+#stackoverflow: username   #e.g: users/2735833/proton1h1
+#Comment out if you don't want disqus 
+#disqus: username
+google_analytics: UA-69391421-1
+
+
+google_scholar: "https://scholar.google.co.in/citations?user=QglQ194AAAAJ&hl=en"
+acm: "http://dl.acm.org/author_page.cfm?id=81100335738&coll=DL"
+dblp: "http://dblp.uni-trier.de/pers/hd/s/Sinha:Nishant"
+uspto: "http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=%2Fnetahtml%2FPTO%2Fsearch-adv.html&r=0&f=S&l=50&d=PG01&OS=IN%2Fnishant+AND+AN%2F%28NEC+OR+%22INTERNATIONAL+BUSINESS%22%29&RS=%28IN%2Fnishant+AND+AN%2F%28NEC+OR+%22INTERNATIONAL+BUSINESS%22%29%29&TD=21&Srch1=%28nishant.IN.+AND+%28NEC+OR+%2522INTERNATIONAL+BUSINESS%2522%29.AS.%29&StartNum=&Refine=Refine+Search&Query=IN%2Fnishant+AND+IN%2Fsinha+AND+AN%2F%28NEC+OR+%22INTERNATIONAL+BUSINESS%22%29"
+
+
+# needed for travis-ci build
+exclude: [vendor]
